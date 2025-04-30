@@ -14,7 +14,7 @@ export default function Sidebar({ children }: { children: ReactNode }) {
       <nav className="h-full flex flex-col bg-[#3B82F6] border-r shadow-sm">
         <div className="p-4 pb-2 flex justify-between items-center">
           <img
-            src="../../public/policiaLogo.png"
+            src="/policiaLogo.png"
             className={`overflow-hidden transition-all ${
               expanded ? "w-16" : "w-0"
             }`}
