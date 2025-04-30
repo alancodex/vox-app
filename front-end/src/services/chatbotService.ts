@@ -1,6 +1,6 @@
 export async function sendMessageToChatbot(message: string, senderId = "default-user") {
   try {
-    const response = await fetch("http://localhost:3001/chat", {
+    const response = await fetch("https://vox-app.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
