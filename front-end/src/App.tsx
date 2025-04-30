@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ChatBox from "./components/ChatBox";
+import Chatbox from "./components/Chatbox";
 import Sidebar, { SidebarItem } from "./components/Sidebar";
 import HistoryPanel from "./components/HistoryPanel";
 
@@ -26,7 +26,7 @@ export default function App() {
       </Sidebar>
 
 
-        {activeView === "chat" && <ChatBox />}
+        {activeView === "chat" && <Chatbox />}
         {activeView === "history" && <HistoryPanel senderId="usuario1" />}
 
     </div>
